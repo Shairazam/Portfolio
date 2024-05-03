@@ -1,0 +1,392 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+            
+            /* section one start here*/
+
+.sec-1 .container{
+	background-image: url(images/21.jpg);
+    background-position:center ;
+    background-size: cover !important;
+    /* background-attachment: ; */
+	font-family: sans-serif;
+/*	padding-bottom: 20px;*/
+	background-size: 100%;
+    height: 100vh;
+    
+/*	height: 100vh;*/
+
+
+}
+.overlay{
+	background-image: line-gradient(black , white);
+}
+
+.navbar{
+/*	background-color: yellow;*/
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+/*    line-height: 50px;*/
+	/*justify-content: space-between;*/
+	
+}
+.navbar h1{
+	justify-content: flex-start;
+/*	height: 150px;*/
+}
+.navbar h1:hover{
+	color: dimgray;
+    font-weight: bold;
+    background-attachment: fixed;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	padding-top: 5px;
+/*    background-color: blue;*/
+    height: fit-content;
+
+}
+
+.navbar ul li{
+	margin-left: 40px;
+/*    flex-direction: row;*/
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	
+}
+.navbar ul li:hover{
+	color: white;
+    text-transform: capitalize;
+    /* background-color: hotpink; */
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.sec-1 .container h2{
+     text-align: center;
+     margin-top: 8rem;
+
+
+}
+.para{
+	text-align: center;
+	
+}
+.sec-1 .container .para h1{
+	padding-bottom: 15px;
+}
+
+.para button{
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border: 1px white solid;
+	border-radius: 200px;
+/*	background: transparent;*/
+	outline: none;
+}
+.para button:hover{
+	color: yellow;
+	background-color: darkgray;
+}
+
+ .sec-1 .container .icon{
+	text-align: center;
+	font-size: 30px;
+    	
+	
+}
+ .sec-1 .container .icon a{
+    font-size: 16px;
+    list-style-type: none;
+/*    text-decoration: none;*/
+ }
+                              /*section one end here*/
+
+.sec-2{
+	padding: 30px 0px;
+}               
+.sec-2 .continer{
+	display: flex;
+}
+.sec-2 .continer .row{
+	display: flex;
+
+}
+.sec-2 .continer .row .col{
+  margin-right:40px;
+
+}
+.sec-2 .continer .row .col h3{
+	margin-top: 6px;
+}
+
+.sec-2 .continer .row .col .social-icon ul i{
+	font-size: 40px;
+   padding: 10px 15px;
+}
+
+
+                                                     /* sec two end here */
+
+
+    .sec-3{
+    	padding: 30px 0px;
+    }
+    .sec-3 .container{
+    	background: #efefef;
+    }
+    .sec-3 .container .head{
+    	text-align: center;
+    	font-size: 15px;
+    }
+    .sec-3 .container .row{
+    	display: flex;
+        padding: 30px 0px;
+    }
+    .sec-3 .container .row .col {
+    	
+    	text-align: center;
+    	/*color: blue;*/
+    }
+
+    .sec-3 .container .row .col i{
+    	font-size: 25px;
+    	color: #2f2f;
+    	padding-bottom: 20px;
+    }
+     .sec-3 .container .row .col hr{
+     	height: 3px;
+     	background-color: red;
+     	width: 20%;
+     	margin-bottom: 10px;
+    	
+    }
+    .sec-3 .container .row .col h6{
+         padding-bottom: 10px;
+         font-size: 22px;
+
+    }
+
+    /* SEC three END HERE */
+
+
+      .sec-4{
+      	padding: 30px 0px;
+      }
+    .sec-4 .container .row .col{
+    	text-align: center;
+
+    }
+    .sec-4 .container .row .col button{
+    	padding: 9px 15px;
+    	background: hotpink;
+    	border-radius: 6px;
+    	color: white;
+    	outline: none;
+    	border:none;
+    	margin-top: 8px;
+
+    }
+
+       /* sec 4 end here */
+
+
+       .sec-5{
+       	padding: 30px 0px;
+       	background:#efefef;
+       }
+       /* .sec-5 .container {
+       	
+       } */
+       .sec-5 .container .row{
+       	padding: 30px 0px;
+       }
+       .sec-5 .container .row .col{
+       	text-align: center;
+       }
+       .sec-5 .container .row .col i{
+       	color: red;
+       	font-size: 30px;
+       }
+
+       .sec-5 .container .row .col img{
+       	border-radius: 100%;
+       	padding: 30px 0px;
+       }
+       .sec-5 .container .row .col p{
+       	padding: 30px 0px; 
+       }
+       /*sec 5 end here*/
+
+       .sec-6{
+       	padding: 30px 0px;
+       }
+
+       .sec-6 .container .row .col{
+       	text-align: center;
+       }
+         .sec-6 .container .row .col .list ul{
+         	display: flex;
+         	list-style-type: none;
+         	padding: 20px 400px;
+         }
+         .sec-6 .container .row .col .list ul li a{
+         	border: none;
+         	padding: 6px 20px;
+         	border-radius: 80px;
+         }
+         .sec-6 .container .row .col .list ul li a{
+         	text-decoration: none;
+         	color: black;
+			transition: all 0.5s;
+         }
+         .sec-6 .container .row .col .list ul li a:hover{
+         	background: hotpink;
+         	color: white;
+
+         }
+         .sec-6 .container .row .col .img{
+         	display: flex;
+         	padding: 0px 80px;
+         	justify-content: space-between;
+			/* transition: all 0.5s; */
+         }
+         .sec-6 .container .row .col .img img:hover{
+         	  opacity: 0.8;
+              transform: scale(1);
+              border: 2px dashed red;
+			  border-radius: 50%;
+			 transition: all 0.8s;
+
+              
+         }
+            .sec-6 .container .row .col .img2{
+         	display: flex;
+         	justify-content: space-between;
+         	margin-top: 40px;
+         	padding: 0px 80px;
+
+         }
+         .sec-6 .container .row .col .img2 img:hover{
+         	  opacity: 0.8;
+              transform: scale(1) translateY(30PX);
+              border: 4px dotted black;
+			  transition: all 0.6s;
+			  border-radius: 50%;
+
+
+            }  
+
+
+
+         @media screen and(max-width="992"){
+         	body{
+         		display:block;
+         	}
+
+         }
+         /* sec 6 end here */
+
+         .sec-7{
+         	padding: 30px 0px;
+         	background: #efefef;
+         }
+         .sec-7 .container .row .col{
+         	text-align: center;
+         	font-family: sans-serif;
+         	padding-bottom: 40px;
+         }
+          .sec-7 .container .row .cols{
+          	display: flex;
+          	margin: 0px 70px;
+          }
+		
+          .sec-7 .container .row .cols h3 span{
+          	color: red;
+          }
+          .sec-7 .container .row .cols a{
+          	text-decoration: none;
+          }
+
+          /* sec 7 end here */
+
+          .sec-8{
+          	padding: 30px 0px;
+          }
+          .sec-8 .container .row .col{
+          	text-align: center;
+          	padding-bottom: 30px;
+          }
+          .sec-8 .container .row .links i{
+          	color: red;
+          }
+          .sec-8 .container .row .links{
+          	display: flex;
+          }
+          .form .fill-form{
+             padding: 0px 80px;
+          	width: 80%;
+          }
+          .form .fill-form .input {
+          	width: 100%;
+          	display: flex;
+           justify-content: space-between;
+          }
+          .form .fill-form .input .name {
+          	padding-right: 8px;
+          	width: 100%;
+          }
+
+          .form .fill-form .input .email{
+          		padding-left: 8px;
+          	width: 100%;
+          }
+          .form .fill-form input{
+             padding: 10px 0px;
+          	width: 100%;
+          }
+
+          	 .form .fill-form textarea{
+          	width: 100%;
+          }
+          .form .fill-form button{
+          	align-self: flex-end;
+          	padding: 10px 18px;
+          	background: rgb(216,103,103);
+          	border-radius: 5px;
+          	text-transform: uppercase;
+          	color: white;
+          	border:none;
+          	outline: none;
+          }
+
+          /* sec-8 end here  */
+
+            .sec-9{
+            	padding: 30px 0px;
+            	background-color: black;
+            }
+            .sec-9 .container .row .end-icons ul{
+            	display: flex;
+            	text-align: center;
+            	width: 25%;
+            	font-size: 40px;
+            	list-style: none;
+            	color: gray;
+            	padding-bottom: 10px;
+             
+
+            }
+            .sec-9 .container .footer{
+            	color:gray;
+            	text-align: center;
+            	font-size: 12px;
+            }
+
+
